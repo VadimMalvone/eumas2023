@@ -1,0 +1,40 @@
+html, body {
+	height: 100%;
+	font-family: 'Roboto', monospace;
+	position: relative;
+  margin-top: 40px;
+}
+
+.jumbotron {
+	padding: 100px 60px;
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/napoli.jpeg') no-repeat center / cover ;
+	color: #fff;
+}
+
+hr {
+	border: 0.5px solid #0000FF;
+}
+
+/*.speakers, .news {
+	padding: 40px 0;
+}*/
+
+section {
+    padding-top:100px;
+    margin-top:-40px;
+}
+
+
+
+.card {
+	border-image: linear-gradient(#a80100, #fdcd00) 30;
+border-width: 4px;
+border-style: solid;
+}
+
+a {color: inherit;
+	text-decoration: none ;}
+
+a:hover {
+	text-decoration: underline wavy #000181;
+}
