@@ -53,7 +53,7 @@
                   <li><a class="dropdown-item" href="#accepted">Accepted papers</a></li>
                   <li><a class="dropdown-item" href="#committee">Committee</a></li>
                   <li><a class="dropdown-item" href="#registration">Registration</a></li>
-                  <li><a class="dropdown-item" href="#vesp">Venue</a></li>
+                  <li><a class="dropdown-item" href="#venue">Venue</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -66,7 +66,7 @@
                 <a class="nav-link" href="#awards" aria-disabled="true">Awards</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#vesp" aria-disabled="true">Sponsor</a>
+                <a class="nav-link" href="#sponsor" aria-disabled="true">Sponsor</a>
               </li>
             </ul>
       </div>
@@ -158,75 +158,91 @@
           </div>
         </section>
 
-                 <section id="accepted">
+        <section id="accepted">
              <h3 class="text-center">Accepted papers</h3>
-               <p> <strong><i> Full papers </i> </strong>
-                <br>
-                &deg Eyal Briman and Nimrod Talmon. Multiple Attribute List Aggregation: Its Application to Democratic Playlist Editing
-                <br>
-                &deg Maaike Venema-Los, Zoé Christoff and Davide Grossi. On the Graph Theory of Majority Illusions
-                <br>
-                &deg Alexandre Perles, Kamaldeep Singh Oberoi, Elsy Kaddoum, Valérie Camps, Stéphanie Combettes and Marie-Pierre Gleizes. Adaptive Multi-Agent System for Detecting User's Regular Movement Behaviour for MaaS Applications
-                <br>
-                &deg Michael Vezina, Babak Esfandiari, Sandra Morley and Francois Schwarzentruber. Qualitative Uncertainty Reasoning in AgentSpeak
-                <br>
-                &deg Martina Baiardi, Samuele Burattini, Giovanni Ciatto and Danilo Pianini. JaKtA: BDI agent-oriented programming in pure Kotlin
-                <br>
-                &deg Zeinab Namakizadeh Esfahani, Débora Engelmann, Angelo Ferrando, Massimiliano Margarone and Viviana Mascardi. Integrating Ontologies and Cognitive Conversational Agents in On2Conv
-                <br>
-                &deg Haolin Sun and Yves Lespérance. Exploiting Reward Machines with Deep Reinforcement Learning in Continuous Action Domains
-                <br>
-                &deg Giuseppe Petrosino, Stefania Monica and Federico Bergenti. A Comprehensive Presentation of the Jadescript Agent-Oriented Programming Language
-                <br>
-                &deg Omar Inverso, Salvatore La Torre, Gennaro Parlato and Ermenegildo Tomasco. Verifying Programs by Bounded Tree-width Behavior Graphs
-                <br> 
-                &deg Giuseppe De Giacomo and Giuseppe Perelli. Behavioral QLTL
-                <br>
-                &deg Matteo Acclavio and Davide Catta. Lorenzen-style strategies as proof-search strategies
-                <br>
-                &deg Elfia Bezou Vrakatseli, Benedikt Brueckner and Luke Thorburn. SHAPE: A Framework for Evaluating the Ethicality of Influence
-                <br>
-                &deg Alejandra López de Aberasturi Gómez, Jordi Sabater Mir and Carles Sierra. Modelling Group Performance in Educational Multiagent Systems: Introducing the CollabQuest Simulation Game
-                <br>
-                &deg Ruhollah Jamali and Sanja Lazarova-Molnar. Towards Developing an Agent-based Model of Price Competition in the European Pharmaceutical Parallel Trade Market
-                <br>
-                &deg Leandro Buss Becker, Anthony Downs, Craig Schlenoff, Justin Albrecht, Zeid Kootbally, Angelo Ferrando, Rafael C. Cardoso and Michael Fisher. Using a BDI Agent to Represent a Human on the Factory Floor of the ARIAC 2023 Industrial Automation Competition
-                <br>
-                &deg Giuseppe De Giacomo, Gianmarco Parretti and Shufang Zhu. Symbolic LTLf Best-Effort Synthesis
-                <br>
-                &deg Francesco Leofante and Alessio Lomuscio. Robust Explanations for Human-Neural Multi-agent Systems with Formal Verification
-                <br>
-                &deg Benjamin Aminof, Giuseppe De Giacomo, Antonio Di Stasio, Hugo Francon, Sasha Rubin and Shufang Zhu. LTLf Synthesis Under Environment Specifications for Reachability and Safety Properties
-                <br>
-                &deg Paolo Baldi. Logic-based approximations of preferences
-                <br>
-                &deg Aliyu Tanko Ali, Martin Leucker, Andreas Schuldei, Martin Sachenbacher and Leonard Stellbrink. A Comparative Analysis of Multi-Agent Simulation Platforms for Energy and Mobility Management
-                <br>
-                &deg Romain Demangeon, Catalin Dima and Daniele Varacca. Observational Preorders for Alternating Transition Systems
-                <br>
-                &deg Giovanni Varricchione, Natasha Alechina, Mehdi Dastani and Brian Logan. Synthesising Reward Machines for Cooperative Multi-Agent Reinforcement Learning
-                <br> 
-                &deg Peter Stringer, Rafael C. Cardoso, Clare Dixon, Michael Fisher and Louise Dennis. Adaptive Cognitive Agents: Updating Action Descriptions and Plans
-                <br>
-                &deg Damian Kurpiewski and Wojciech Jamroga. Pretty Good Strategies and Where to Find Them
-                <br>
-                &deg Carlos Marín Lora and Miguel Chover. A multi-agent Sudoku using the wave function collapse
-                 <br> 
-                 </p>
-                <p> <strong><i> Short papers </i> </strong>
-                <br>
-                &deg Mahyar Sadeghi Garjan, Tommy Chaanine, Cecilia Pasquale, Vito Paolo Pastore and Angelo Ferrando. AGAMAS: A new Agent-Oriented Traffic Simulation framework for SUMO
-                <br>
-                &deg Luca Sabatucci, Agnese Augello, Giuseppe Caggianese and Luigi Gallo. Coordinating Systems of Digital Twins with Digital Practices
-                <br>
-                &deg Andrés Holgado-Sánchez, Joaquín Arias, Mar Moreno-Rebato and Sascha Ossowski. On admissible behaviours for goal-oriented decision-making of value-aware agents
-                <br>
-                &deg Andreas Kalaitzakis and Jérôme Euzenat. Beneficial multi-tasking in cultural knowledge evolution suggests knowledge transferability among tasks.
-                <br>
-                &deg Vincenzo Auletta, Diodato Ferraioli and Carmine Viscito. Election Manipulation on Social Networks with Abstention
-                 <br> 
-                 </p>
-           </section>
+             <div class="accordion accordion-flush w-100 mx-auto" id="accordionFlushExample2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">Full papers</button>
+                </h2>
+                <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne2" data-bs-parent="#accordionFlushExample2">
+                  <div class="accordion-body">
+                    <ul style="list-style-type:circle;">
+                      <li> Eyal Briman and Nimrod Talmon. Multiple Attribute List Aggregation: Its Application to Democratic Playlist Editing
+                      </li>
+                      <li> Maaike Venema-Los, Zoé Christoff and Davide Grossi. On the Graph Theory of Majority Illusions
+                      </li>
+                      <li> Alexandre Perles, Kamaldeep Singh Oberoi, Elsy Kaddoum, Valérie Camps, Stéphanie Combettes and Marie-Pierre Gleizes. Adaptive Multi-Agent System for Detecting User's Regular Movement Behaviour for MaaS Applications
+                      </li>
+                      <li> Michael Vezina, Babak Esfandiari, Sandra Morley and Francois Schwarzentruber. Qualitative Uncertainty Reasoning in AgentSpeak
+                      </li>
+                      <li> Martina Baiardi, Samuele Burattini, Giovanni Ciatto and Danilo Pianini. JaKtA: BDI agent-oriented programming in pure Kotlin
+                      </li>
+                      <li> Zeinab Namakizadeh Esfahani, Débora Engelmann, Angelo Ferrando, Massimiliano Margarone and Viviana Mascardi. Integrating Ontologies and Cognitive Conversational Agents in On2Conv
+                      </li>
+                      <li> Haolin Sun and Yves Lespérance. Exploiting Reward Machines with Deep Reinforcement Learning in Continuous Action Domains
+                      </li>
+                      <li> Giuseppe Petrosino, Stefania Monica and Federico Bergenti. A Comprehensive Presentation of the Jadescript Agent-Oriented Programming Language
+                      </li>
+                      <li> Omar Inverso, Salvatore La Torre, Gennaro Parlato and Ermenegildo Tomasco. Verifying Programs by Bounded Tree-width Behavior Graphs
+                      </li> 
+                      <li> Giuseppe De Giacomo and Giuseppe Perelli. Behavioral QLTL
+                      </li>
+                      <li> Matteo Acclavio and Davide Catta. Lorenzen-style strategies as proof-search strategies
+                      </li>
+                      <li> Elfia Bezou Vrakatseli, Benedikt Brueckner and Luke Thorburn. SHAPE: A Framework for Evaluating the Ethicality of Influence
+                      </li>
+                      <li> Alejandra López de Aberasturi Gómez, Jordi Sabater Mir and Carles Sierra. Modelling Group Performance in Educational Multiagent Systems: Introducing the CollabQuest Simulation Game
+                      </li>
+                      <li> Ruhollah Jamali and Sanja Lazarova-Molnar. Towards Developing an Agent-based Model of Price Competition in the European Pharmaceutical Parallel Trade Market
+                      </li>
+                      <li> Leandro Buss Becker, Anthony Downs, Craig Schlenoff, Justin Albrecht, Zeid Kootbally, Angelo Ferrando, Rafael C. Cardoso and Michael Fisher. Using a BDI Agent to Represent a Human on the Factory Floor of the ARIAC 2023 Industrial Automation Competition
+                      </li>
+                      <li> Giuseppe De Giacomo, Gianmarco Parretti and Shufang Zhu. Symbolic LTLf Best-Effort Synthesis
+                      </li>
+                      <li> Francesco Leofante and Alessio Lomuscio. Robust Explanations for Human-Neural Multi-agent Systems with Formal Verification
+                      </li>
+                      <li> Benjamin Aminof, Giuseppe De Giacomo, Antonio Di Stasio, Hugo Francon, Sasha Rubin and Shufang Zhu. LTLf Synthesis Under Environment Specifications for Reachability and Safety Properties
+                      </li>
+                      <li> Paolo Baldi. Logic-based approximations of preferences
+                      </li>
+                      <li> Aliyu Tanko Ali, Martin Leucker, Andreas Schuldei, Martin Sachenbacher and Leonard Stellbrink. A Comparative Analysis of Multi-Agent Simulation Platforms for Energy and Mobility Management
+                      </li>
+                      <li> Romain Demangeon, Catalin Dima and Daniele Varacca. Observational Preorders for Alternating Transition Systems
+                      </li>
+                      <li> Giovanni Varricchione, Natasha Alechina, Mehdi Dastani and Brian Logan. Synthesising Reward Machines for Cooperative Multi-Agent Reinforcement Learning
+                      </li> 
+                      <li> Peter Stringer, Rafael C. Cardoso, Clare Dixon, Michael Fisher and Louise Dennis. Adaptive Cognitive Agents: Updating Action Descriptions and Plans
+                      </li>
+                      <li> Damian Kurpiewski and Wojciech Jamroga. Pretty Good Strategies and Where to Find Them
+                      </li>
+                      <li> Carlos Marín Lora and Miguel Chover. A multi-agent Sudoku using the wave function collapse
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo2" aria-expanded="false" aria-controls="flush-collapseOne">Short papers</button>
+                </h2>
+                <div id="flush-collapseTwo2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo2" data-bs-parent="#accordionFlushExample2">
+                  <div class="accordion-body">
+                    <ul style="list-style-type:circle;">
+                      <li> Mahyar Sadeghi Garjan, Tommy Chaanine, Cecilia Pasquale, Vito Paolo Pastore and Angelo Ferrando. AGAMAS: A new Agent-Oriented Traffic Simulation framework for SUMO
+                      </li>
+                      <li> Luca Sabatucci, Agnese Augello, Giuseppe Caggianese and Luigi Gallo. Coordinating Systems of Digital Twins with Digital Practices
+                      </li>
+                      <li> Andrés Holgado-Sánchez, Joaquín Arias, Mar Moreno-Rebato and Sascha Ossowski. On admissible behaviours for goal-oriented decision-making of value-aware agents
+                      </li>
+                      <li> Andreas Kalaitzakis and Jérôme Euzenat. Beneficial multi-tasking in cultural knowledge evolution suggests knowledge transferability among tasks.
+                      </li>
+                      <li> Vincenzo Auletta, Diodato Ferraioli and Carmine Viscito. Election Manipulation on Social Networks with Abstention
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>       
+        </section>
 
         <section id="awards">
           <h3 class="text-center">Awards</h3>
@@ -252,15 +268,39 @@
 
         <section id="keynote">
           <h3 class="text-center">Keynote Speakers</h3>
-          <ul class="list-group list-group-flush text-center w-50 mx-auto">
+          <!-- <ul class="list-group list-group-flush text-center w-50 mx-auto">
             <li class="list-group-item"><a href="https://www.cs.huji.ac.il/~ornak/"> Prof. Orna Kupferman</a> (Hebrew University, Israel)</li>
             <li class="list-group-item"><a href="https://ana-paiva.com/">Prof. Ana Paiva</a> (University of Lisbon, Portugal)</li>
-          </ul>
+          </ul> -->
+          <div class="accordion accordion-flush w-75 mx-auto" id="accordionFlushExample1">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne"> Prof. Orna Kupferman</button>
+              </h2>
+              <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample1">
+                <div class="accordion-body">
+                  <p><a href="https://www.cs.huji.ac.il/~ornak/"> Prof. Orna Kupferman</a> is a faculty member at the School of Computer Science and Engineering, The Hebrew University. She received her Ph.D. in 1995 from the Technion. Her research areas cover the theoretical foundations of the formal verification and synthesis of computer systems, with a focus on automata theory and game theory and their applications. These days, Orna joins hundreds of thousands of Israelies in a struggle for Israel's democracy.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo1" aria-expanded="false" aria-controls="flush-collapseOne"> Prof. Ana Paiva</button>
+              </h2>
+              <div id="flush-collapseTwo1" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo1" data-bs-parent="#accordionFlushExample1">
+                <div class="accordion-body">
+                  <p><a href="https://ana-paiva.com/">Prof. Ana Paiva</a> is a Professor of Computer Science at Instituto Superior Técnico, University of Lisbon investigating the creation of intelligent interactive systems by designing “social agents” that can interact with humans in a natural and social manner. She is also a fellow at the Radcliffe Institute for Advanced Study at Harvard University. Over the years she has addressed this problem by engineering social agents that try to exhibit specific social capabilities, including non-verbal behavior, empathy, personality, culture adaptation, and collaboration, among others.  Her more recent research combines methods from artificial intelligence with social modelling  to study hybrid societies of humans and machines.  In particular she is investigating how to  engineer agents that lead to more prosocial and altruistic societies.</p>
+                  <p>She has published extensively and received best paper awards in several conferences, notably, she won the Blue Sky Awards at the AAAI in 2018.  She has further advanced the area of artificial intelligence and social agents worldwide, having served for the Global Agenda Council in Artificial Intelligence and Robotics of the World Economic Forum and as a member of the Scientific Advisory Board of Science Europe. She is a AAAI and a EurAI fellow.</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section id="committee">
           <h3 class="text-center">Committee</h3>
-            <div class="accordion accordion-flush w-50 mx-auto" id="accordionFlushExample">
+            <div class="accordion accordion-flush w-75 mx-auto" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"> Chairs</button>
@@ -425,26 +465,56 @@
                  <strong><i>For each paper it is necessary to have an author registration. In addition, for each author it is possible to register only one paper.</strong></i></p>
            </section>
 
-           <div id="vesp">
-             <hr class="mt-5">
+          <div id="venue" class="text-center">
+            <hr class="mt-5">
+              <h3>Venue</h3>
+              <div class="icons">
+                <i class="bi bi-geo-alt"></i> In the historical and unique venue of <a href="https://it.wikipedia.org/wiki/Museo_di_mineralogia_(Napoli)"><strong><em>Real Museo Mineralogico</em></strong></a>, Via Mezzocannone, 8, 80134 Napoli NA, Italia
+                <p>If you are not familiar yet with Naples, here are some advices you may follow to reach the venue from <a href="https://www.google.com/maps/dir/Biblioteca+del+Dipartimento+di+genetica,+biologia+generale+e+molecolare+dell'Universit%C3%A0+degli+studi+di+Napoli+Federico+II,+Via+Mezzocannone,+8,+80134+Napoli+NA,+Italia/Universit%C3%A0+degli+Studi+di+Napoli,+Via+Claudio,+21,+80125+Napoli+NA/@40.8354533,14.1816752,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x133b08441e6b4891:0x1c11e8ba8b7dbab!2m2!1d14.2564484!2d40.846257!1m5!1m1!1s0x133b0ecd04123677:0xa90f86f098dc985!2m2!1d14.1898227!2d40.8291696!3e3?hl=it&entry=ttu"><strong><em>Train Station</em></strong></a> or <a href="https://www.google.com/maps/dir/Capodichino,+Viale+Fulco+Ruffo+di+Calabria,+Napoli,+NA/Biblioteca+del+Dipartimento+di+genetica,+biologia+generale+e+molecolare+dell'Universit%C3%A0+degli+studi+di+Napoli+Federico+II,+Via+Mezzocannone,+8,+80134+Napoli+NA,+Italia/@40.8601117,14.2284646,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x133ba81e8986d9e3:0xbf48c58ba6c9356d!2m2!1d14.289243!2d40.8847493!1m5!1m1!1s0x133b08441e6b4891:0x1c11e8ba8b7dbab!2m2!1d14.2564484!2d40.846257!3e3?hl=it&entry=ttu"><strong><em>Airport</em></strong></a>.</p>
+              </div>          
+              <!-- <span class=text-center> &copy; 2023 EUMAS</span> -->
+          </div>
+
+
+           <div id="sponsor" class="text-center">
+              <hr class="mt-5">
+              <h3>Sponsors</h3>
               <div class="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                  <h5>EUMAS 2023</h5>
-                  <div class="icons">
-                    <i class="bi bi-geo-alt"></i> In the historical and unique venue of <a href="https://it.wikipedia.org/wiki/Museo_di_mineralogia_(Napoli)"><strong><em>Real Museo Mineralogico</em></strong></a>, Via Mezzocannone, 8, 80134 Napoli NA, Italia
-                    <p>If you are not familiar yet with Naples, here are some advices you may follow to reach the venue from <a href="https://www.google.com/maps/dir/Biblioteca+del+Dipartimento+di+genetica,+biologia+generale+e+molecolare+dell'Universit%C3%A0+degli+studi+di+Napoli+Federico+II,+Via+Mezzocannone,+8,+80134+Napoli+NA,+Italia/Universit%C3%A0+degli+Studi+di+Napoli,+Via+Claudio,+21,+80125+Napoli+NA/@40.8354533,14.1816752,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x133b08441e6b4891:0x1c11e8ba8b7dbab!2m2!1d14.2564484!2d40.846257!1m5!1m1!1s0x133b0ecd04123677:0xa90f86f098dc985!2m2!1d14.1898227!2d40.8291696!3e3?hl=it&entry=ttu"><strong><em>Train Station</em></strong></a> or <a href="https://www.google.com/maps/dir/Capodichino,+Viale+Fulco+Ruffo+di+Calabria,+Napoli,+NA/Biblioteca+del+Dipartimento+di+genetica,+biologia+generale+e+molecolare+dell'Universit%C3%A0+degli+studi+di+Napoli+Federico+II,+Via+Mezzocannone,+8,+80134+Napoli+NA,+Italia/@40.8601117,14.2284646,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x133ba81e8986d9e3:0xbf48c58ba6c9356d!2m2!1d14.289243!2d40.8847493!1m5!1m1!1s0x133b08441e6b4891:0x1c11e8ba8b7dbab!2m2!1d14.2564484!2d40.846257!3e3?hl=it&entry=ttu"><strong><em>Airport</em></strong></a>.</p>
+                <div class="col-sm-4 mb-3 mb-sm-0 d-flex">
+                  <div class="card text-dark bg-light mb-3 mx-auto">
+                    <div class="card-header" style="font-size: 2.5rem;">Gold</div>
+                    <div class="card-body">
+                      <img src="./images/last.png" class="rounded" alt="AI" style="width:70%">
+                      <br>
+                      <!-- <img src="./images/unina.png" class="rounded" alt="UNINA"style="width:70%"> -->
+                    </div>
                   </div>
                 </div>
-                <div class="col-sm-6">
-                  <img src="./images/ai.jpeg" class="rounded" alt="AI"style="width:15%">
-                  <img src="./images/unina.png" class="rounded" alt="UNINA"style="width:35%">
-                  <img src="./images/innovaway.png" class="rounded" alt="UNINA"style="width:20%">
-                  <img src="./images/notes.jpeg" class="rounded" alt="UNINA"style="width:25%">
+                <div class="col-sm-4 d-flex">
+                  <div class="card text-dark bg-light mb-3 mx-auto">
+                    <div class="card-header" style="font-size: 2rem;">Silver</div>
+                    <div class="card-body">
+                        <img src="./images/ai.jpeg" class="rounded" alt="AI" style="width:30%">
+                        <br>
+                        <img src="./images/unina.png" class="rounded" alt="UNINA"style="width:50%">
+                    </div>
+                  </div>
                 </div>
-                <br>
-                <span class=text-center> &copy; 2023 EUMAS</span>
-        </div>
-      </div>
+                <div class="col-sm-4 d-flex">
+                  <div class="card text-dark bg-light mb-3 mx-auto">
+                    <div class="card-header" style="font-size: 1.5rem;">Bronze</div> 
+                    <div class="card-body">
+                      <img src="./images/innovaway.png" class="rounded" alt="UNINA"style="width:30%">
+                      <br>
+                      <img src="./images/notes.jpeg" class="rounded" alt="UNINA"style="width:40%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <span class=text-center> &copy; 2023 EUMAS</span>
+            </div>
+          </div>
   </div>
 </div>
 </div>
